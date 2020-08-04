@@ -10,7 +10,7 @@ end
 
 
 def long_planeteer_calls(array)
-  if array.any?
+  if array.any? { |n| n.length > 4 }
 
 def find_the_cheese# code an argument here
   # the array below is here to help
