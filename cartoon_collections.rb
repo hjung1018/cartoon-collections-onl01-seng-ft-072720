@@ -5,13 +5,8 @@ end
 end
 
 def summon_captain_planet(array)
-  i = 0
-  exclaim = array.join("! ")
-  exclaim.capitalize()
-  split = exclaim.split(" ")
-  cap = split.map(&:capitalize)
-  cap 
-
+  summon_captain_planet { |call| call.capitalize + '!' }
+end
 end
 
 
