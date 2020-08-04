@@ -20,4 +20,3 @@ def find_the_cheese# code an argument here
     cheeses.include?(maybe_cheese)
   end
 end
-end
