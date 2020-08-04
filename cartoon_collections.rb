@@ -4,8 +4,7 @@ def roll_call_dwarves (dwarves)
 end
 end
 
-  def summon_captain_planet(array)
-  
+def summon_captain_planet(array)
   i = 0
   exclaim = array.join("! ")
   exclaim.capitalize()
