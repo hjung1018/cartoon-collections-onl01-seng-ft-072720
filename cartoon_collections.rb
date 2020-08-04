@@ -10,8 +10,8 @@ def summon_captain_planet(array)
   exclaim.capitalize()
   split = exclaim.split(" ")
   cap = split.map(&:capitalize)
-  new array = cap
-  new_array
+  cap 
+
 end
 
 
