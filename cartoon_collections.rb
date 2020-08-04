@@ -1,18 +1,18 @@
 def roll_call_dwarves (dwarves)
    array.each.with_index(1) do |dwarf, index|
-      print "#{index}. #{dwarf}"
+      puts "#{index}. #{dwarf}"
 end
 end
-
 
   def summon_captain_planet(array)
-
+  
   i = 0
   exclaim = array.join("! ")
   exclaim.capitalize()
   split = exclaim.split(" ")
   cap = split.map(&:capitalize)
-  cap
+  new array = cap
+  new_array
 end
 
 
